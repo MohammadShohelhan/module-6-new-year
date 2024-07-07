@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+font-family: "Poppins", sans-serif;
+/* color: white; */
+}
+
+/* common style */
+/* ====================================== */
+.center{
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+
+:root{
+--first--font: 4.5rem;
+--second-font: 3rem;
+--third-font:1.5rem;
+--black:black;
+--white:white;
+--red:red;
+}
+
+
+
+body{
+  width: 1600px;
+  margin: 0 auto;
+  border: 1px solid gray;
+}
+
+main{
+  max-width: 1320px;
+  margin: 0 auto;
+  
+}
+
+header{
+  color: white;
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.75)), url(./banner-Image.png);
+  background-size: cover; 
+  background-position: center;
+ 
+ 
+
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+
+
+
+}
+nav .logo{
+  width: 120px;
+}
+
+nav .nav-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-item h3 a{
+  text-decoration: none;
+  font-size: var(--heading3);
+  color:var(--second-color);
+  font-weight: 600;
+}
+.nav-search{
+  width: 20rem;
+  height: 3rem;
+  padding-top: .8rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  
+}
+.nav-search i{
+  padding-left:1rem;
+}
+
+.search-input{
+ 
+  width:70%;
+  border: none;
+  outline: none;
+  border-right: 1px solid gray;
+
+ 
+}
+::placeholder{
+ display: block;
+ padding-left: 1rem;
+  color:gray;
+}
+/* ======================================================= */
+/* nav style end here */
+/* ======================================================= */
+
+.header-content{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 9rem;
+
+}
+
+.content-child{
+  font-size: var(--third-font);
+}
+
+.content-child2{
+
+  color: rgb(255, 255, 255);
+  font-family: Merriweather;
+  font-size: var(--first--font);
+  font-weight: 900;
+  line-height: 95px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+
+/* ======================================================= */
+/* header content style end here */
+/* ======================================================= */
+
+.first-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 2px solid rgb(57, 20, 221);
+
+
+}
+
+.first-content{
+  width: 802px;
+
+
+
+  & h2{
+    color: var(--red);
+    font-size: var(--first--font);
+  }
+  & h5{
+    color: var(--red);
+    font-size: var(--third-font);
+    font-weight: 500;
+  }
+
+  & h3{
+    color: var(--black);
+    font-size: var(--second-font);
+  }
+} 
+/* .first-content  */
+
+.first-content img{
+  width: 802.9px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+/* ======================================================= */
+/* first-section  style end here */
+/* ======================================================= */
+
+.second-section {
+  width: 100%;
+  height: 600px;
+
+background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.65)),url(./Vectorrr.png) ;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.second-container{
+  display: flex;
+  gap: 6.5rem;
+  padding: 0 124px;
+}
+
+.second-content{
+text-align: left;
+margin-top: 5.5rem;
+
+  & h2{
+   
+    color: var(--white);
+    font-size: var(--first--font);
+  }
+  & h5{
+   
+    color: var(--white);
+    font-size: var(--third--font);
+    font-weight: 500;
+  }
+
+  & button{
+    margin-top: 1rem;
+    border: none;
+    color: var(--white);
+    font-size: var(--third-font);
+    font-weight: 500;
+    text-transform: uppercase;
+   background-color: transparent;
+  }
+}
+
+
+.second-section-img{
+width: 320px;
+height: 465px;
+margin-top: 2rem;
+
+}
+
+/* ======================================================= */
+/* second -section  style end here */
+/* ======================================================= */
+
+
+.third-section{
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.third-container{
+ width: 30rem;
+  height: 20rem;
+
+
+  & p{
+    font-size: var(--third-font);
+    color: var(--black);
+    font-weight: 600;
+    padding: 1rem 0;
+    && span{
+      color: var(--red);
+      
+    }
+  }
+  & .btn-div{
+    margin-top: 5rem;
+    text-align: left;
+  
+
+  & button{
+    padding: 15px 50px;
+    background-color: var(--red);
+    color: var(--white);
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+  
+  }
+}
+}
+
+/* ======================================================= */
+/* third -section  style end here */
+/* ======================================================= */
+
+.four-section{
+  width: 1320px;
+  height: 465px;
+  display: flex;
+  justify-content: space-between;
+
+  background-color: rgba(255, 228, 196, 0.452);
+}
+
+.four-section-left{
+  width: 394px;
+  text-align: left;
+  margin: auto 0;
+  
+
+  & h5{
+    color: var(--red);
+
+font-size: var(--third-font);
+font-weight: 500;
+
+  }
+
+  & h3{
+    color: var(--black);
+
+font-size: var(--second-font);
+font-weight: 600;
+
+  }
+
+  & p{
+    color:gray;
+
+    font-size: 18px;
+    font-weight: 400;
+
+
+
+  }
+
+}
+
+.four-section-middle{
+  width: 463px;
+  width: 463px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px solid red;
+  border-radius: 50%;
+  
+
+}
+
+
+.four-section-right{
+  width: 276px;
+  margin: auto 0;
+
+ 
+
+  & h4{
+    color: rgb(255, 0, 0);
+
+
+  }
+  & p{
+    color:gray;
+
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+}
+
+/* ======================================================= */
+/* four -section  style end here */
+/* ======================================================= */
+
+
+.five-section{
+  width: 1320px;
+  margin-top: 6rem;
+
+}
+
+.five-section-content{
+  width: 1068px;
+  height: 262px;
+
+
+
+  & h5{
+font-size: var(--third-font);
+color: var(--black);
+  }
+
+  
+  & h2{
+    font-size: var(--first--font);
+    color: var(--black);
+
+    & span{
+      color:var(--red);
+    }
+      }
+
+
+      & p{
+        width: 1068px;
+      }
+}
+
+
+.five-section-imgaes{
+  width: 1320px;
+  height: 720px;
+  margin-top: 6rem;
+  position: relative;
+
+  & .img-2{
+    margin-bottom: 15rem;
+     margin-left: 10rem;
+  }
+
+  & .img-3{
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   z-index: -6;
+ 
+  }
+}
+
+
+/* ======================================================= */
+/* five -section  style end here */
+/* ======================================================= */
+
+.six-section{
+ width: 1320px;
+ height: 1163px;
+
+ & h5{
+  color: rgb(255, 0, 0);
+
+font-size: 24px;
+font-weight: 500;
+margin-top: 6rem;
+
+ }
+
+ & h3{
+  color: rgb(7, 2, 17);
+
+font-size: 48px;
+font-weight: 600;
+
+ }
+
+ & p{
+  width: 855px;
+ }
+}
+
+
+.six-section-images{
+  margin-top: 6rem;
+ 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+justify-content: space-evenly;
+}
+/* ======================================================= */
+/* six -section  style end here */
+/* ======================================================= */
+
+.seven-section{
+  width: 1320px;
+  height: 616px;
+  border-radius: 16px;
+
+background: rgba(255, 0, 0, 0.05);
+
+  & h3{
+     font-size: var(--first--font);
+     color: var(--black);
+  }
+
+  & p{
+    color: rgba(7, 2, 17, 0.6);
+ 
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+  
+   }
+ }
+
+ .seven-section-input{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 648px;
+  height: 72px;
+  margin: 4rem auto 0;
+  overflow: hidden;
+  border-radius: 50px;
+ 
+ 
+
+  
+
+
+  & input{
+    width: 70%;
+    height: 75px;
+    border: none;
+    outline:none;
+  
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    overflow: hidden;
+    
+  }
+
+  & button{
+    width: 30%; 
+  height: 75px;
+    font-size: 16px;
+    display: inline-block;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-top: 2px;
+    border: none;
+    color: var(--white);
+    background-color: var(--red);
+  }
+ }
+
+ .seven-section-input input::placeholder{
+  /* display: inline-block; */
+  padding-left: 2rem;
+  font-size: 20px;
+ }
+
+ /* ======================================================= */
+/* seven -section  style end here */
+/* ======================================================= */
+
+
+footer{
+  width: 100%;
+  height: 609px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.footer-part1{
+  width: 1185px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer-part2{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  width: 80%;
+  margin: 2rem 0;;
+
+ 
+
+  & img{
+    margin-right: 2rem;
+
+  }
+}
+
+.footer-part3{
+  width: 1185px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
