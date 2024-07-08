@@ -143,7 +143,7 @@ nav .nav-item{
   justify-content: center;
   align-items: center;
 
-  border: 2px solid rgb(57, 20, 221);
+
 
 
 }
@@ -299,6 +299,7 @@ margin-top: 2rem;
   width: 394px;
   text-align: left;
   margin: auto 0;
+  padding-left:1rem ;
   
 
   & h5{
@@ -379,6 +380,7 @@ font-weight: 600;
 
 
 
+
   & h5{
 font-size: var(--third-font);
 color: var(--black);
@@ -454,11 +456,12 @@ font-weight: 600;
 
 
 .six-section-images{
-  margin-top: 6rem;
- 
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-justify-content: space-evenly;
+
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 1rem;
+margin-top: 6rem;
 }
 /* ======================================================= */
 /* six -section  style end here */
@@ -468,6 +471,7 @@ justify-content: space-evenly;
   width: 1320px;
   height: 616px;
   border-radius: 16px;
+  margin-top: 6rem;
 
 background: rgba(255, 0, 0, 0.05);
 
@@ -493,10 +497,13 @@ background: rgba(255, 0, 0, 0.05);
   justify-content: space-between;
   align-items: center;
   width: 648px;
+  background-color:white;
   height: 72px;
   margin: 4rem auto 0;
   overflow: hidden;
   border-radius: 50px;
+  border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
  
  
 
@@ -504,13 +511,12 @@ background: rgba(255, 0, 0, 0.05);
 
 
   & input{
-    width: 70%;
+    width: 60%;
     height: 75px;
     border: none;
     outline:none;
-  
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
+    margin-left: 10%;
+    
     overflow: hidden;
     
   }
