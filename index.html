@@ -9,7 +9,7 @@
 <body>
   <header>
     <nav>
-      <img class="logo" src="image.png" alt="logo-image">
+      <img class="logo" src="happy.png" alt="logo-image">
 
         <div class="nav-item">
             <h3><a href="#home">Home</a></h3>
@@ -144,9 +144,13 @@
       <h3>Subscribe Newsletter</h3>
       <p>Dolor sit amet consectetur. Consequat eget consectetur maecenas sed molestie malesuada. <br> Ipsum sed sodales risus ut pellentesque vel euismod. </p>
 
-     <div class="seven-section-input">
-      <input type="text" placeholder="user@gmail.com"><button>Subscribe</button>
-     </div>
+     <form  action="https://formspree.io/f/xqazzlzq"
+     method="POST" class="seven-section-input">
+
+      <input name="email"  type="email" required placeholder="user@gmail.com">
+      
+      <button type="submit" name="submit" >Subscribe</button>
+     </form>
     </section>
 
   </main>
